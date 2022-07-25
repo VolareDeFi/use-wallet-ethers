@@ -1,0 +1,20 @@
+{
+  "name": "use-wallet-ethers",
+  "version": "1.0.66",
+  "description": "A wrapper of Ethers.js to connect with EIP-1193 and WalletConnect at ease",
+  "main": "dist/index.js",
+  "author": "bitweedx64",
+  "homepage": "https://volare.finance",
+  "license": "MIT",
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@metamask/onboarding": "^1.0.1",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "ethers": "^5.6.9",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@ethersproject/providers": "^5.6.8",
+    "@types/node": "^18.0.1"
+  }
+}
