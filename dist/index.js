@@ -135,9 +135,15 @@ const useWallet = (wallet, config, callbacks) => {
                     const provider = new index_min_js_1.default({
                         infuraId: config.infuraId,
                         rpc: {
-                        /**
-                         * @todo: add support for common networks
-                         */
+                            56: "https://bsc-dataseed.binance.org",
+                            43114: "https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc",
+                            137: "https://polygonapi.terminet.io/rpc",
+                            25: "https://evm.cronos.org",
+                            250: "https://rpc.ftm.tools",
+                            42161: "https://arb1.arbitrum.io/rpc",
+                            10: "https://mainnet.optimism.io",
+                            8217: "https://cypress.fandom.finance/archive",
+                            1313161554: "https://mainnet.aurora.dev", // Aurora Mainnet
                         },
                     });
                     onWalletConnect(provider);
