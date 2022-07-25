@@ -158,9 +158,15 @@ export const useWallet = (
           const provider = new WalletConnectProvider({
             infuraId: (config as WalletConnectConfig).infuraId,
             rpc: {
-              /**
-               * @todo: add support for common networks
-               */
+              56: "https://bsc-dataseed.binance.org", // BSC
+              43114: "https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc", // AVAX-C
+              137: "https://polygonapi.terminet.io/rpc", // Polygon
+              25: "https://evm.cronos.org", // Cronos
+              250: "https://rpc.ftm.tools", // Fantom
+              42161: "https://arb1.arbitrum.io/rpc", // Arbitrum
+              10: "https://mainnet.optimism.io", // Optimism
+              8217: "https://cypress.fandom.finance/archive", // Klaytn Mainnet Cypress
+              1313161554: "https://mainnet.aurora.dev", // Aurora Mainnet
             },
           });
 

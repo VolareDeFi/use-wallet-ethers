@@ -1,6 +1,6 @@
 {
   "name": "use-wallet-ethers",
-  "version": "1.0.66",
+  "version": "1.0.67",
   "description": "A wrapper of Ethers.js to connect with EIP-1193 and WalletConnect at ease",
   "main": "dist/index.js",
   "author": "bitweedx64",
