@@ -1,4 +1,4 @@
-# 👛 use-wallet-ethers
+# 👛 use-wallet-ethers [WIP]
 
 This repository is inspired by another useWallet library. But with some minor differences.
 
